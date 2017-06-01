@@ -1,0 +1,30 @@
+{
+  "name": "ak1103dev.github.io",
+  "version": "0.0.1",
+  "description": "my profile",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ak1103dev/ak1103dev.github.io.git"
+  },
+  "keywords": [
+    "nextjs",
+    "react"
+  ],
+  "author": "ak1103dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ak1103dev/ak1103dev.github.io/issues"
+  },
+  "homepage": "https://github.com/ak1103dev/ak1103dev.github.io#readme",
+  "dependencies": {
+    "next": "^2.4.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  }
+}
