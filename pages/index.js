@@ -1,7 +1,6 @@
 import React from 'react';
+import Link from 'next/link';
 
 export default () => (
-  <div>
-    Welcome to next.js!
-  </div>
+  <div>Click <Link href="/about"><a>here</a></Link> to read more</div>
 );
