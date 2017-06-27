@@ -1,0 +1,24 @@
+machine:
+  node:
+    version: 6.3.1
+  environment:
+    CONTINUOUS_INTEGRATION: true
+
+dependencies:
+  cache_directories:
+    - node_modules
+  override:
+    - npm install
+
+test:
+  override:
+    - npm run lint
+
+deployment:
+  production:
+    branch: dev
+    commands:
+    - git config --global user.email "ak1103dev@users.noreply.github.com"
+    - git config --global user.name "ak1103dev on CircleCI"
+    - npm run build
+    - npm run deploy
