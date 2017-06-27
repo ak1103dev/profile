@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "gh-pages -b master --src '{.nojekyll,**/*}' -d out -m \"Deploy $(git rev-parse HEAD) to GitHub pages [ci skip]\""
   },
   "repository": {
     "type": "git",
@@ -23,15 +24,16 @@
   },
   "homepage": "https://github.com/ak1103dev/ak1103dev.github.io",
   "dependencies": {
-    "next": "^2.4.0",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "next": "beta",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
     "eslint-plugin-import": "^2.3.0",
     "eslint-plugin-jsx-a11y": "^5.0.3",
-    "eslint-plugin-react": "^7.0.1"
+    "eslint-plugin-react": "^7.0.1",
+    "gh-pages": "^1.0.0"
   }
 }
