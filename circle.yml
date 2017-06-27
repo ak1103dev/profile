@@ -18,7 +18,7 @@ deployment:
   production:
     branch: dev
     commands:
-    - git config --global user.email "ak1103dev@users.noreply.github.com"
-    - git config --global user.name "ak1103dev on CircleCI"
+    - git config --global user.email "circleci@spacet.me"
+    - git config --global user.name "CircleCI"
     - npm run build
     - npm run deploy
