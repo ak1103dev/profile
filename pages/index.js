@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
+// import Link from 'next/link';
 import Head from 'next/head';
 
 export default () => (
@@ -10,9 +10,10 @@ export default () => (
     </Head>
     <div className="container">
       <h1>Apichan Chaiyutthasat</h1>
-      <div>
-
-      </div>
+      {/* Contact */}
+      {/* About */}
+      {/* Project */}
+      {/* Open Source Contributions */}
     </div>
     <style jsx>{`
       .container {
