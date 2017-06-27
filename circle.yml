@@ -1,0 +1,38 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:6.3.1
+    step:
+      - checkout
+      - run: yarn
+      - run: yarn run lint
+      - run: yarn run build
+      - run: |
+          if [ "${CIRCLE_BRANCH}" == "dev" ]
+          then
+            git config --global user.name "CircleCI" && git config --global user.email "circleci@spacet.me" && yarn run deploy
+          else
+            echo 'Not master branch, therefore not deploying'
+          fi
+
+# machine:
+#   node:
+#     version: 6.3.1
+#   environment:
+#     CONTINUOUS_INTEGRATION: true
+
+# dependencies:
+#   cache_directories:
+#     - node_modules
+#   override:
+#     - npm install
+# test:
+#   override:
+#     - npm run eslint
+#     - npm test
+# deployment:
+#   production:
+#     tag: /v.*/
+#     heroku:
+# appname: knowbita-api
