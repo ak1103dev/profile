@@ -10,7 +10,7 @@
     "dev": "next",
     "build": "next build && next export",
     "start": "next start",
-    "deploy": "gh-pages -b master --src '{.nojekyll,**/*}' -d out -m \"Deploy $(git rev-parse HEAD) to GitHub pages [ci skip]\"",
+    "deploy": "gh-pages -b master --src '{.nojekyll,**/*}' -d out -m \"Deploy this to GitHub pages [ci skip]\"",
     "lint": "eslint *.js pages"
   },
   "repository": {
