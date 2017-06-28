@@ -10,10 +10,6 @@ export default () => (
     </Head>
     <div className="container">
       <h1>Apichan Chaiyutthasat</h1>
-      {/* Contact */}
-      {/* About */}
-      {/* Project */}
-      {/* Open Source Contributions */}
     </div>
     <style jsx>{`
       .container {

@@ -11,7 +11,9 @@
     "build": "next build && next export",
     "start": "next start",
     "deploy": "gh-pages -b master --src '{.nojekyll,**/*}' -d out -m \"Deploy $(git rev-parse HEAD) to GitHub pages [ci skip]\"",
-    "lint": "eslint *.js pages"
+    "lint": "eslint *.js pages",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -28,11 +30,13 @@
   },
   "homepage": "https://github.com/ak1103dev/ak1103dev.github.io",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "next": "beta",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
   "devDependencies": {
+    "@storybook/react": "^3.1.6",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.1",
     "eslint-plugin-import": "^2.3.0",

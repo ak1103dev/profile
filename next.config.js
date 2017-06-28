@@ -1,4 +1,6 @@
-exports.exportPathMap = () => ({
-  '/': { page: '/' },
-  '/about': { page: '/about' },
-});
+module.exports = {
+  exportPathMap: () => ({
+    '/': { page: '/' },
+    '/about': { page: '/about' },
+  }),
+};

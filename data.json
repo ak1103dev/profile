@@ -1,0 +1,117 @@
+{
+  "basicInfo": {
+    "image": "https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.0-9/1526605_585784361492738_260833475_n.jpg?oh=ab5bfa3ed6c0d3b755256db6bd137324&oe=59862BF2",
+    "name": "Apichan Chaiyutthasat",
+    "bio": "Fullstack JS Developer",
+    "email": "apichan.ch@gmail.com",
+    "address": "Pathumthani, Thailand",
+    "socials": [
+      {
+        "network": "GitHub",
+        "icon": "github",
+        "url": "https://github.com/ak1103dev"
+      },
+      {
+        "network": "Medium",
+        "icon": "medium",
+        "url": "https://medium.com/@ak1103dev"
+      },
+      {
+        "network": "Facebook",
+        "icon": "facebook-square",
+        "url": "https://www.facebook.com/aphichan.chaiyutthasart"
+      },
+      {
+        "network": "Twitter",
+        "icon": "twitter",
+        "url": "https://twitter.com/ak1103dev"
+      }
+    ]
+  },
+  "profile": "I like to solve problem and learn new things. I am happy when I develop and maintain some products that can solve real problem.",
+  "technicalSkills": [
+    {
+      "lang": "Javascript",
+      "level": 5
+    },
+    {
+      "lang": "HTML / CSS",
+      "level": 4
+    },
+    {
+      "lang": "Unix Scripting",
+      "level": 4
+    },
+    {
+      "lang": "Python",
+      "level": 3
+    },
+    {
+      "lang": "C / C++",
+      "level": 3
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Kasetsart University",
+      "position": "Senior Project Developer",
+      "start": "Jan 2017",
+      "stop": "Apr 2017",
+      "highlights": [
+        "Developed android application for using Knowbita comfortably with React Native and Node.js + Spinal(Microservices Framework)"
+      ]
+    },
+    {
+      "company": "TakeMeTour",
+      "position": "Fullstack Engineer Intern",
+      "start": "Jun 2016",
+      "stop": "Dec 2016",
+      "highlights": [
+        "Developed android application with React Native",
+        "Developed web application with React and Node.js + Spinal(Microservices Framework)",
+        "Processed data from logs with Apache Airflow"
+      ]
+    },
+    {
+      "company": "NewKru",
+      "position": "Intern",
+      "start": "Jun 2015",
+      "stop": "Jul 2015",
+      "highlights": [
+        "Learned about developing native android application",
+        "Learned about developing mobile application with Apache Codova",
+        "Learned about Docker container",
+        "Learned about developing web with MEAN stack",
+        "Learned about Facebook graph API"
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "institution": "Kasetsart University",
+      "address": "Bangkok, Thailand",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor",
+      "start": "2013",
+      "stop": "2017"
+    }
+  ],
+  "interests": [
+    {
+      "name": "reading books",
+      "icon": "book"
+    },
+    {
+      "name": "seeing movies",
+      "icon": "film"
+    },
+    {
+      "name": "listening to music",
+      "icon": "headphones"
+    },
+    {
+      "name": "writing blogs",
+      "icon": "pencil"
+    }
+  ]
+}
