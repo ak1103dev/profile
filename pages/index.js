@@ -7,7 +7,7 @@ import Input from '../components/Input';
 export default () => (
   <div>
     <Head>
-      <title>Apichan Chaiyutthasat</title>
+      <title>ChatToMe</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <div className="container">
