@@ -3,7 +3,7 @@ import React from 'react';
 export default () => (
   <div>
     <div className="inputBox">
-      <input type="text" className="textInput" />
+      <textarea className="textInput" />
       <button className="sendButton">send</button>
     </div>
     <style jsx>{`
@@ -16,9 +16,11 @@ export default () => (
         color: #FFF;
       }
       .textInput {
-        width: calc(100% - 50px);
-        height: 32px;
+        position: relative;
+        top: 16px;
+        width: calc(100% - 52px);
         font-size: 16px;
+        resize: none;
       }
       .sendButton {
         width: 46px;
