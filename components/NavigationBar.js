@@ -19,7 +19,7 @@ export default () => (
         )
       }
     </p>
-    <style jsx>{`
+    <style global jsx>{`
       .navigation {
         position: absolute;
         top: 0;
@@ -28,7 +28,6 @@ export default () => (
         margin: 0;
         padding: 10px;
         background-color: #00b900;
-        color: #FFF;
       }
       .menus {
         text-align: center;
