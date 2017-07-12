@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
 // import Link from 'next/link';
-import NavigationBar from '../components/NavigationBar';
-import Input from '../components/Input';
-import Messages from '../components/Messages';
 
 export default class Home extends Component {
   constructor() {
@@ -17,15 +14,14 @@ export default class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className="content">
         <div className="container">
-          <NavigationBar />
-          <Messages messages={this.state.messages} />
-          <Input />
+          <h1>Apichan Chaiyutthasat</h1>
         </div>
         <style jsx>{`
           .container {
             width: 100%;
+            text-align: center;
           }
         `}</style>
       </div>

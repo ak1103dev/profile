@@ -1,6 +1,7 @@
 module.exports = {
   exportPathMap: () => ({
     '/': { page: '/' },
-    '/about': { page: '/about' },
+    '/timeline': { page: '/timeline' },
+    '/projects': { page: '/projects' },
   }),
 };
