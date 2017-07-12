@@ -21,7 +21,7 @@ export default () => (
     </p>
     <style global jsx>{`
       .navigation {
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         right: 0;
