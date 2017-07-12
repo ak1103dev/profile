@@ -26,6 +26,14 @@ export default class MyDocument extends Document {
         <style global jsx>{`
           .content {
             margin-top: 80px;
+            margin-left: 100px;
+            margin-right: 100px;
+          }
+          @media (max-width: 767px) {
+            .content {
+              margin-left: 10px;
+              margin-right: 10px;
+            }
           }
         `}</style>
       </html>

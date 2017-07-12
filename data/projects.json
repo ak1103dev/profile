@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Brain Smile",
+    "displayImage": "",
+    "description": "Application for Alzeimer patients\nThis application provides the patients with videos, contents, and games to improve and better their daily life.",
+    "keywords": ["react", "pwa", "react-player", "material-ui"],
+    "contributors": [{
+      "name": "Apichan Chaiyutthasat",
+      "gitUsername": "ak1103dev"
+    }, {
+      "name": "Supanut Apikulvanich",
+      "gitUsername": "zugarzeeker"
+    }, {
+      "name": "Chinatip Vichian",
+      "gitUsername": "chinatip"
+    }, {
+      "name": "Monthol Charattrakool",
+      "gitUsername": "monthol8th"
+    }],
+    "url": "https://zugarzeeker.github.io/brain-smile"
+  },
+  {
+    "title": "Android Application for Using KnowBita Comfortably",
+    "displayImage": "",
+    "description": "KnowBita is a website for students in Department of Computer Engineering, Faculty of Engineering, Kasetsart University Bangkhen Campus use for relearning and following content in missing classes. Each instructor in the department can record video. Sometimes, users, students and instructors, use a smartphone or tablet for access KnowBita website but the website has bad layout on smartphone.\nAccordingly, KnowBita application make the students and instructors can access KnowBita comfortably and the application is added some features such as downloading video, setting stop recording time.",
+    "keywords": ["react-native", "react", "redux", "nodejs", "mongo", "circleci", "heroku"],
+    "contributors": [{
+      "name": "Apichan Chaiyutthasat",
+      "gitUsername": "ak1103dev"
+    }],
+    "url": "https://ecourse.cpe.ku.ac.th/projar/project/details/1212/"
+  },
+  {
+    "title": "KU-Course",
+    "displayImage": "",
+    "description": "Modern course schedule of Kasetsart University\nThe course schedule has filtering subject by time.",
+    "keywords": ["react", "redux", "nodejs", "mongo", "circleci", "heroku"],
+    "contributors": [{
+      "name": "Apichan Chaiyutthasat",
+      "gitUsername": "ak1103dev"
+    }, {
+      "name": "Supanut Apikulvanich",
+      "gitUsername": "zugarzeeker"
+    }, {
+      "name": "Komkanit Sujautra",
+      "gitUsername": "komcal"
+    }, {
+      "name": "Waewprach Suthirawut",
+      "gitUsername": "tidjungs"
+    }],
+    "url": "https://zugarzeeker.github.io/ku-courses-frontend/"
+  }
+]
