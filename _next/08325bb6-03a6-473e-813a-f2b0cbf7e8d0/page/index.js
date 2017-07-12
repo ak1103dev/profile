@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/', function() {
+            var comp = module.exports=webpackJsonp([6],{198:function(e,t,a){e.exports=a(199)},199:function(e,t,a){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var l=a(10),s=n(l),u=a(4),r=n(u),d=a(5),c=n(d),i=a(11),o=n(i),f=a(12),m=n(f),h=a(67),p=n(h),x=a(1),_=n(x),v=function(e){function t(){(0,r.default)(this,t);var e=(0,o.default)(this,(t.__proto__||(0,s.default)(t)).call(this));return e.state={messages:[{message:"hello",isOwner:!0}]},e}return(0,m.default)(t,e),(0,c.default)(t,[{key:"render",value:function(){return _.default.createElement("div",{className:"content","data-jsx":2277172004},_.default.createElement("div",{className:"container","data-jsx":2277172004},_.default.createElement("h1",{"data-jsx":2277172004},"Apichan Chaiyutthasat")),_.default.createElement(p.default,{styleId:2277172004,css:'.container[data-jsx="2277172004"]{width:100%;-webkit-text-align:center;text-align:center}'}))}}]),t}(x.Component);t.default=v}},[198]);
+            return { page: comp.default }
+          })
+        
