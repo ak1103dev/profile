@@ -15,7 +15,7 @@ export default () => (
           label: 'Projects',
           path: '/projects',
         }].map(menu =>
-          <Link href={menu.path}><a className="menu">{menu.label}</a></Link>,
+          <Link key={menu.label} href={menu.path}><a className="menu">{menu.label}</a></Link>,
         )
       }
     </p>

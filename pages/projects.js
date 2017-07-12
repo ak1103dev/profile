@@ -6,9 +6,11 @@ export default () => (
   <div className="content">
     <h1>Projects</h1>
     <div className="projects">{
-      projects.map(project =>
-        <ProjectCard project={project} />,
-      )
+      projects.map(project => (
+        <div key={project.title}>
+          <ProjectCard project={project} />
+        </div>
+      ))
     }</div>
     <style jsx>{`
       .projects {
