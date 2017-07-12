@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 export default () => (
-  <div className="container">
+  <div className="navigation">
     <p className="menus">
       {
         [{
@@ -20,7 +20,7 @@ export default () => (
       }
     </p>
     <style jsx>{`
-      .container {
+      .navigation {
         position: absolute;
         top: 0;
         left: 0;
